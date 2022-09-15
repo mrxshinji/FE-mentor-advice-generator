@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FE-mentor-advice-generator/static/css/main.f69e9362.css",
-    "main.js": "/FE-mentor-advice-generator/static/js/main.35671a51.js",
+    "main.css": "/FE-mentor-advice-generator/static/css/main.41799405.css",
+    "main.js": "/FE-mentor-advice-generator/static/js/main.9e0e9ae0.js",
     "index.html": "/FE-mentor-advice-generator/index.html",
-    "main.f69e9362.css.map": "/FE-mentor-advice-generator/static/css/main.f69e9362.css.map",
-    "main.35671a51.js.map": "/FE-mentor-advice-generator/static/js/main.35671a51.js.map"
+    "main.41799405.css.map": "/FE-mentor-advice-generator/static/css/main.41799405.css.map",
+    "main.9e0e9ae0.js.map": "/FE-mentor-advice-generator/static/js/main.9e0e9ae0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f69e9362.css",
-    "static/js/main.35671a51.js"
+    "static/css/main.41799405.css",
+    "static/js/main.9e0e9ae0.js"
   ]
 }

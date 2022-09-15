@@ -17,7 +17,7 @@ export default function Advice(props) {
                 </div>
             </div>
             <div className="dice">
-                <button onClick={props.NextAdvice}><img src="./images/icon-dice.svg" alt="generate advice"></img></button>
+                <button id="btn" onClick={props.NextAdvice}><img src="./images/icon-dice.svg" alt="generate advice"></img></button>
             </div>
         </div>
     )

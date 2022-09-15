@@ -1,0 +1,146 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%)
+
+## Typography
+
+### Body Copy
+
+- Font size (quote): 28px
+
+### Font
+
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800
+
+*/
+
+
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--DarkBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 95vw;
+    height: auto;
+    background-color: var(--DarkGrayishBlue);
+    border-radius: 10px;
+    color: var(--LightCyan);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 1.5em 10% 1.5em;
+}
+
+.advice-number {
+    margin-bottom: 1.5rem;
+}
+
+.advice-text {
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    color: var(--NeonGreen);
+}
+
+.divider {
+    margin-bottom: 1em;
+}
+
+.dice {
+    position: relative;
+    transform: translateY(-35px);
+    z-index: 2;
+    height: 70px;
+    width: 70px;
+    
+}
+
+.dice button {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: var(--NeonGreen);
+}
+
+.dice button:hover,
+.dice button:focus {
+    cursor: pointer;
+    border: .1px solid var(--NeonGreen);
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0px 0px 15px 5px rgb(32%, 100%, 66%, .5);
+    
+}
+
+.dice button:disabled {
+    cursor: default;
+    border: .1px solid var(--NeonGreen);
+    background-color: rgb(170, 170, 170);
+    box-shadow: 0px 0px 15px 5px rgba(219, 223, 221, 0.5);
+}
+
+@media only screen and (min-width: 414px) {
+    .card {
+        width: 40vw;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: 800;
+        margin: 0 1.5em 0 1.5em;
+        text-align: center;
+    }
+  }
